@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO -->
+  <title>من نحن | الريادة للخدمات الفنية في الإمارات</title>
+  <meta name="description" content="الريادة للخدمات الفنية في الإمارات: خدمات الصرف الصحي، تركيب الإنترلوك، تنسيق الحدائق، وفتحات الكور. تنفيذ احترافي، التزام بالمواعيد، وشفافية في التسعير." />
+  <link rel="canonical" href="https://aratshftsrfshyalsharq.shop/about/" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="ar_AE" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="الريادة للخدمات الفنية" />
+  <meta property="og:title" content="من نحن | الريادة للخدمات الفنية" />
+  <meta property="og:description" content="حلول فنية متكاملة داخل الإمارات: الصرف الصحي، الإنترلوك، تنسيق الحدائق، وفتحات الكور." />
+  <meta property="og:url" content="https://aratshftsrfshyalsharq.shop/about/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon (اختياري) -->
+  <!-- <link rel="icon" href="/favicon.ico" /> -->
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a2f;
+      --muted:#a7b3cc;
+      --text:#eef3ff;
+      --brand:#2dd4bf;
+      --brand2:#60a5fa;
+      --line:rgba(255,255,255,.10);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 1120px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Tahoma, Arial, "Noto Kufi Arabic", "Noto Sans Arabic", sans-serif;
+      background: radial-gradient(1100px 600px at 10% 10%, rgba(96,165,250,.18), transparent 60%),
+                  radial-gradient(900px 520px at 90% 20%, rgba(45,212,191,.16), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.75;
+    }
+    a{color:inherit}
+    .container{max-width:var(--max); margin:auto; padding:24px}
+    header{
+      position:sticky; top:0; z-index:5;
+      backdrop-filter: blur(10px);
+      background: rgba(11,18,32,.55);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:14px}
+    .brand{display:flex; align-items:center; gap:12px; text-decoration:none}
+    .logo{
+      width:44px; height:44px; border-radius:14px;
+      background: linear-gradient(135deg, var(--brand), var(--brand2));
+      box-shadow: var(--shadow);
+      display:grid; place-items:center;
+      font-weight:900;
+    }
+    .brand .name{display:flex; flex-direction:column}
+    .brand .name strong{font-size:15px}
+    .brand .name small{color:var(--muted); font-size:12px}
+
+    .menu{display:flex; gap:14px; flex-wrap:wrap; align-items:center}
+    .menu a{
+      text-decoration:none;
+      padding:10px 12px;
+      border-radius:12px;
+      color:var(--muted);
+      border:1px solid transparent;
+    }
+    .menu a:hover{color:var(--text); border-color:var(--line); background:rgba(255,255,255,.04)}
+
+    .cta{
+      text-decoration:none;
+      padding:10px 14px;
+      border-radius:14px;
+      background: linear-gradient(135deg, rgba(45,212,191,.20), rgba(96,165,250,.20));
+      border:1px solid rgba(255,255,255,.14);
+      box-shadow: var(--shadow);
+      white-space:nowrap;
+    }
+
+    .hero{padding:42px 0 18px}
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .card{
+      background: rgba(15,26,47,.72);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding:22px;
+    }
+    .kicker{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 12px;
+      border:1px solid rgba(255,255,255,.14);
+      border-radius:999px;
+      color:var(--muted);
+      background: rgba(255,255,255,.03);
+      font-size:13px;
+    }
+    .kicker i{
+      width:10px; height:10px; border-radius:999px;
+      background: linear-gradient(135deg, var(--brand), var(--brand2));
+      display:inline-block;
+    }
+    h1{margin:12px 0 8px; font-size:34px; line-height:1.25}
+    .lead{margin:0; color:var(--muted); font-size:16px}
+    .hero-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px;
+      text-decoration:none;
+      padding:12px 14px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.04);
+    }
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(45,212,191,.26), rgba(96,165,250,.22));
+      border-color: rgba(255,255,255,.18);
+    }
+    .btn:hover{transform: translateY(-1px)}
+
+    .mini{display:grid; grid-template-columns: 1fr 1fr; gap:12px}
+    .stat{
+      padding:14px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.03);
+    }
+    .stat strong{display:block; font-size:16px}
+    .stat small{color:var(--muted)}
+    .section{padding:18px 0}
+    h2{margin:0 0 10px; font-size:22px}
+    .muted{color:var(--muted)}
+    .cols{display:grid; grid-template-columns: 1fr 1fr 1fr; gap:14px}
+
+    .list{margin:0; padding:0 18px 0 0; color:var(--muted)}
+    .list li{margin:8px 0}
+
+    .pill{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:10px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.03);
+      color:var(--muted);
+      font-size:13px;
+      margin:6px 6px 0 0;
+    }
+
+    .stamp{
+      display:flex; gap:12px; align-items:flex-start;
+      padding:16px;
+      border-radius:18px;
+      border:1px dashed rgba(255,255,255,.22);
+      background: rgba(255,255,255,.03);
+    }
+    .stamp-badge{
+      width:54px; height:54px; border-radius:18px;
+      background: linear-gradient(135deg, rgba(45,212,191,.85), rgba(96,165,250,.85));
+      display:grid; place-items:center;
+      font-weight:900;
+      box-shadow: var(--shadow);
+      flex:0 0 auto;
+    }
+    .stamp h3{margin:0 0 6px; font-size:16px}
+    .stamp p{margin:0; color:var(--muted)}
+
+    .faq details{
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.03);
+      border-radius:16px;
+      padding:14px;
+      margin:10px 0;
+    }
+    .faq summary{cursor:pointer; font-weight:800}
+
+    footer{
+      margin-top:18px;
+      border-top:1px solid var(--line);
+      background: rgba(11,18,32,.35);
+    }
+    .footer-grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:14px;
+      align-items:start;
+      padding:18px 0;
+    }
+    .small{font-size:12px; color:var(--muted)}
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{
+      font-size:12px;
+      color:var(--muted);
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.02);
+      padding:8px 10px;
+      border-radius:999px;
+    }
+
+    @media (max-width: 900px){
+      .grid{grid-template-columns:1fr}
+      .cols{grid-template-columns:1fr}
+      h1{font-size:28px}
+      .mini{grid-template-columns:1fr 1fr}
+      .footer-grid{grid-template-columns:1fr}
+    }
+    @media (max-width: 520px){
+      .mini{grid-template-columns:1fr}
+      .menu{display:none}
+    }
+  </style>
+
+  <!-- Schema.org: Organization + LocalBusiness + WebSite + WebPage + Breadcrumb + FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://aratshftsrfshyalsharq.shop/#organization",
+        "name": "الريادة للخدمات الفنية",
+        "alternateName": "Al Riyadah Technical Services",
+        "url": "https://aratshftsrfshyalsharq.shop/",
+        "logo": "https://aratshftsrfshyalsharq.shop/wp-content/uploads/logo.png",
+        "description": "الريادة للخدمات الفنية في الإمارات: خدمات الصرف الصحي، تركيب الإنترلوك، تنسيق الحدائق، وفتحات الكور.",
+        "telephone": "+971526480547",
+        "sameAs": [],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "AE",
+          "addressRegion": "United Arab Emirates"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://aratshftsrfshyalsharq.shop/#localbusiness",
+        "name": "الريادة للخدمات الفنية",
+        "url": "https://aratshftsrfshyalsharq.shop/",
+        "telephone": "+971526480547",
+        "priceRange": "$$",
+        "areaServed": ["AE"],
+        "parentOrganization": { "@id": "https://aratshftsrfshyalsharq.shop/#organization" },
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "خدمات الصرف الصحي" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تركيب الإنترلوك" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تنسيق الحدائق" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "فتحات الكور" } }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://aratshftsrfshyalsharq.shop/#website",
+        "url": "https://aratshftsrfshyalsharq.shop/",
+        "name": "الريادة للخدمات الفنية",
+        "publisher": { "@id": "https://aratshftsrfshyalsharq.shop/#organization" },
+        "inLanguage": "ar-AE"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://aratshftsrfshyalsharq.shop/about/#webpage",
+        "url": "https://aratshftsrfshyalsharq.shop/about/",
+        "name": "من نحن | الريادة للخدمات الفنية في الإمارات",
+        "isPartOf": { "@id": "https://aratshftsrfshyalsharq.shop/#website" },
+        "about": { "@id": "https://aratshftsrfshyalsharq.shop/#organization" },
+        "inLanguage": "ar-AE",
+        "breadcrumb": { "@id": "https://aratshftsrfshyalsharq.shop/about/#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://aratshftsrfshyalsharq.shop/about/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://aratshftsrfshyalsharq.shop/" },
+          { "@type": "ListItem", "position": 2, "name": "من نحن", "item": "https://aratshftsrfshyalsharq.shop/about/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://aratshftsrfshyalsharq.shop/about/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "هل تقدمون معاينة قبل التنفيذ؟",
+            "acceptedAnswer": { "@type": "Answer", "text": "نعم. المعاينة تساعد على تحديد نطاق العمل بدقة وتقديم عرض سعر واضح قبل البدء." }
+          },
+          {
+            "@type": "Question",
+            "name": "ما الخدمات التي تقدمونها؟",
+            "acceptedAnswer": { "@type": "Answer", "text": "نقدم خدمات الصرف الصحي، تركيب الإنترلوك، تنسيق الحدائق، وفتحات الكور داخل الإمارات." }
+          },
+          {
+            "@type": "Question",
+            "name": "هل تعملون مع شركات ومشاريع؟",
+            "acceptedAnswer": { "@type": "Answer", "text": "نعم. نخدم الأفراد والشركات والمشاريع السكنية والتجارية." }
+          },
+          {
+            "@type": "Question",
+            "name": "كيف يتم تحديد الأسعار؟",
+            "acceptedAnswer": { "@type": "Answer", "text": "السعر يعتمد على الموقع والحجم ونوعية المواد ونطاق العمل. نقدم عرض سعر تفصيلي قبل التنفيذ." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="https://aratshftsrfshyalsharq.shop/" aria-label="العودة للرئيسية">
+          <div class="logo" aria-hidden="true">ر</div>
+          <div class="name">
+            <strong>الريادة للخدمات الفنية</strong>
+            <small>خدمات فنية متكاملة داخل الإمارات</small>
+          </div>
+        </a>
+
+        <nav class="menu" aria-label="القائمة الرئيسية">
+          <a href="https://aratshftsrfshyalsharq.shop/">الرئيسية</a>
+          <a href="https://aratshftsrfshyalsharq.shop/about/" aria-current="page" style="color:var(--text);background:rgba(255,255,255,.04);border-color:var(--line)">من نحن</a>
+          <a href="https://aratshftsrfshyalsharq.shop/services/">خدماتنا</a>
+          <a href="https://aratshftsrfshyalsharq.shop/projects/">أعمالنا</a>
+          <a href="https://aratshftsrfshyalsharq.shop/contact/">اتصل بنا</a>
+        </nav>
+
+        <a class="cta" href="https://wa.me/971526480547" rel="noopener">واتساب مباشر</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="grid">
+        <article class="card">
+          <span class="kicker"><i></i> تعريف مختصر</span>
+          <h1>من نحن</h1>
+          <p class="lead">
+            <strong>الريادة للخدمات الفنية</strong> شركة متخصصة في تقديم <strong>حلول فنية متكاملة داخل دولة الإمارات</strong> تشمل:
+            <strong>الصرف الصحي</strong>، <strong>تركيب الإنترلوك</strong>، <strong>تنسيق الحدائق</strong>، و<strong>فتحات الكور</strong>.
+            نعمل بعقلية تشغيلية: <strong>جودة تنفيذ + التزام بالمواعيد + شفافية</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="https://aratshftsrfshyalsharq.shop/contact/">اطلب معاينة / عرض سعر</a>
+            <a class="btn" href="https://aratshftsrfshyalsharq.shop/services/">شاهد الخدمات</a>
+            <a class="btn" href="https://aratshftsrfshyalsharq.shop/projects/">أعمالنا</a>
+          </div>
+
+          <div style="margin-top:16px">
+            <span class="pill">تنفيذ منظم</span>
+            <span class="pill">سلامة أولاً</span>
+            <span class="pill">تسليم نظيف</span>
+            <span class="pill">دعم ما بعد الخدمة</span>
+          </div>
+        </article>
+
+        <aside class="card">
+          <span class="kicker"><i></i> مؤشرات ثقة</span>
+          <div class="mini" style="margin-top:12px">
+            <div class="stat">
+              <strong>استجابة سريعة</strong>
+              <small>ترتيب معاينة حسب وقتك</small>
+            </div>
+            <div class="stat">
+              <strong>التزام بالتسليم</strong>
+              <small>خطة عمل واضحة من البداية</small>
+            </div>
+            <div class="stat">
+              <strong>تشغيل احترافي</strong>
+              <small>فحص وإغلاق ملاحظات قبل التسليم</small>
+            </div>
+            <div class="stat">
+              <strong>تسعير شفاف</strong>
+              <small>بنود واضحة بدون لف ودوران</small>
+            </div>
+          </div>
+
+          <div style="margin-top:16px" class="stamp" aria-label="ختم الثقة">
+            <div class="stamp-badge" aria-hidden="true">✓</div>
+            <div>
+              <h3>STAMP: “شغل يُقاس… مو كلام”</h3>
+              <p>
+                نركز على النتيجة: جودة، نظافة موقع، وإنهاء العمل بشكل صحيح من أول مرة.
+                (إذا تبحث عن الأرخص فقط—بتلقى كثير. إذا تبحث عن الصح—تواصل معنا.)
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Mission / Vision / Values -->
+    <section class="section">
+      <div class="cols">
+        <div class="card">
+          <h2>رسالتنا</h2>
+          <p class="muted">
+            تقديم حلول فنية موثوقة ترفع جودة الممتلكات وتقلل الأعطال المستقبلية عبر تنفيذ احترافي وإدارة موقع منضبطة.
+          </p>
+        </div>
+        <div class="card">
+          <h2>رؤيتنا</h2>
+          <p class="muted">
+            أن نكون الخيار الأول في الإمارات لمن يبحث عن شركة خدمات فنية تعمل كشريك تشغيل طويل الأمد.
+          </p>
+        </div>
+        <div class="card">
+          <h2>قيمنا</h2>
+          <ul class="list">
+            <li>الالتزام بالمواعيد… لأن وقتك فلوس</li>
+            <li>جودة تنفيذ قابلة للفحص، وليس “شعارات”</li>
+            <li>سلامة الموقع جزء من الجودة</li>
+            <li>شفافية في التكلفة ونطاق العمل</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section">
+      <div class="card">
+        <h2>ماذا نقدم؟</h2>
+        <p class="muted">
+          نقدم خدماتنا للأفراد والشركات والمشاريع السكنية والتجارية داخل الإمارات. كل خدمة لها مسار تنفيذ واضح من المعاينة وحتى التسليم.
+        </p>
+
+        <div class="cols" style="margin-top:10px">
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">خدمات الصرف الصحي</h3>
+            <ul class="list">
+              <li>تنفيذ وصيانة ومعالجة أعطال</li>
+              <li>حلول تقلل التسربات وتطيل عمر الشبكة</li>
+              <li>تسليم مرتب يراعي سلامة الموقع</li>
+            </ul>
+          </div>
+
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">تركيب الإنترلوك</h3>
+            <ul class="list">
+              <li>تأسيس صحيح (قاعدة/تسوية/ميول)</li>
+              <li>تركيب ودكّ وتربيط احترافي</li>
+              <li>شكل نظيف + متانة أعلى</li>
+            </ul>
+          </div>
+
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">تنسيق الحدائق</h3>
+            <ul class="list">
+              <li>تصميم وتنفيذ للمساحات الخارجية</li>
+              <li>حلول عملية وسهلة الصيانة</li>
+              <li>رفع قيمة العقار بصرياً</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px; background:rgba(255,255,255,.02)">
+          <h3 style="margin:0 0 8px">فتحات الكور (Core Cutting)</h3>
+          <p class="muted" style="margin:0">
+            فتحات دقيقة وآمنة للأعمال الإنشائية والكهربائية والميكانيكية، مع مراعاة حماية البنية وتقليل الغبار والضوضاء قدر الإمكان حسب الموقع.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section">
+      <div class="card">
+        <h2>منهجية العمل (كيف نضمن الجودة؟)</h2>
+
+        <div class="cols" style="margin-top:10px">
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">1) معاينة وتقييم</h3>
+            <p class="muted" style="margin:0">نحدد نطاق العمل، المواد، المخاطر، والمدة قبل التنفيذ.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">2) عرض سعر واضح</h3>
+            <p class="muted" style="margin:0">بنود مفهومة وتكلفة محددة—بدون ضبابية.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">3) تنفيذ وإشراف</h3>
+            <p class="muted" style="margin:0">تنفيذ ميداني مع متابعة لضمان الجودة والسلامة.</p>
+          </div>
+        </div>
+
+        <div class="cols" style="margin-top:12px">
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">4) فحص وإغلاق ملاحظات</h3>
+            <p class="muted" style="margin:0">نراجع ونقفل الملاحظات قبل التسليم النهائي.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">5) تسليم نظيف</h3>
+            <p class="muted" style="margin:0">نظافة وترتيب الموقع جزء من العقد—مو “بونص”.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,.02)">
+            <h3 style="margin:0 0 8px">6) دعم لاحق</h3>
+            <p class="muted" style="margin:0">متابعة حسب الحاجة لضمان استمرارية الأداء.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why us + Areas -->
+    <section class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>لماذا الريادة؟</h2>
+          <ul class="list">
+            <li><strong>احترافية تشغيل:</strong> نحل المشكلة من جذورها، لا ترقيع مؤقت.</li>
+            <li><strong>التزام بالمواعيد:</strong> نشتغل بخطة واضحة وإدارة وقت.</li>
+            <li><strong>سلامة وجودة:</strong> خصوصاً في فتحات الكور والأعمال الثقيلة.</li>
+            <li><strong>شفافية:</strong> نطاق العمل والتكلفة والمدة واضحة قبل البدء.</li>
+          </ul>
+
+          <div style="margin-top:12px" class="chips" aria-label="نطاق الخدمة">
+            <span class="chip">داخل الإمارات</span>
+            <span class="chip">سكني</span>
+            <span class="chip">تجاري</span>
+            <span class="chip">مشاريع</span>
+          </div>
+        </div>
+
+        <div class="card faq" id="faq">
+          <h2>أسئلة شائعة</h2>
+
+          <details open>
+            <summary>هل تقدمون معاينة قبل التنفيذ؟</summary>
+            <p class="muted">نعم. المعاينة تساعد على تحديد نطاق العمل بدقة وتقديم عرض سعر واضح قبل البدء.</p>
+          </details>
+
+          <details>
+            <summary>هل تعملون مع شركات ومشاريع؟</summary>
+            <p class="muted">نعم. نخدم الأفراد والشركات والمشاريع السكنية والتجارية داخل الإمارات.</p>
+          </details>
+
+          <details>
+            <summary>كيف يتم تحديد الأسعار؟</summary>
+            <p class="muted">حسب الموقع وحجم العمل ونوعية المواد ونطاق الخدمة. نعطيك عرض سعر تفصيلي قبل التنفيذ.</p>
+          </details>
+
+          <details>
+            <summary>كيف أتواصل بسرعة؟</summary>
+            <p class="muted">الأسرع عبر واتساب: <a href="https://wa.me/971526480547" rel="noopener">0526480547</a></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="card">
+        <h2>جاهز نبدأ؟</h2>
+        <p class="muted" style="margin:0 0 12px">
+          أرسل موقعك/صور العمل على واتساب، ونرجع لك بخطة تنفيذ وعرض سعر واضح.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://wa.me/971526480547" rel="noopener">واتساب الآن</a>
+          <a class="btn" href="tel:+971526480547">اتصال مباشر</a>
+          <a class="btn" href="https://aratshftsrfshyalsharq.shop/contact/">نموذج التواصل</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>الريادة للخدمات الفنية</strong>
+          <p class="muted" style="margin:8px 0 0">
+            خدمات فنية متكاملة داخل الإمارات: الصرف الصحي، تركيب الإنترلوك، تنسيق الحدائق، وفتحات الكور.
+          </p>
+          <p class="small" style="margin:10px 0 0">© <span id="y"></span> جميع الحقوق محفوظة</p>
+        </div>
+
+        <div>
+          <strong>تواصل سريع</strong>
+          <div class="muted" style="margin-top:8px">
+            <div>واتساب: <a href="https://wa.me/971526480547" rel="noopener">0526480547</a></div>
+            <div>اتصال: <a href="tel:+971526480547">+971 52 648 0547</a></div>
+            <div>الموقع: <a href="https://aratshftsrfshyalsharq.shop/">aratshftsrfshyalsharq.shop</a></div>
+          </div>
+          <p class="small" style="margin-top:10px">
+            ملاحظة: لو عندك شعار/رابط لوجو صحيح في ووردبريس، حدّثه في حقل Schema (logo) أعلى الصفحة.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
