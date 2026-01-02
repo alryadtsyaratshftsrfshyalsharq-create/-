@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- SEO (Indexable Landing Page Version) -->
+  <title>عرض سعر سريع لخدمات فنية في الإمارات | الريادة للخدمات الفنية</title>
+  <meta name="description" content="احصل على عرض سعر سريع داخل الإمارات لخدمات: السباكة، كشف التسربات، العزل، الصرف الصحي، تركيب الإنترلوك، تنسيق الحدائق، وفتحات الكور. تواصل واتساب 0526480547." />
+  <link rel="canonical" href="https://aratshftsrfshyalsharq.shop/landing/" />
+
+  <!-- Indexable -->
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="ar_AE" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="الريادة للخدمات الفنية" />
+  <meta property="og:title" content="عرض سعر سريع لخدمات فنية في الإمارات | الريادة" />
+  <meta property="og:description" content="خدمات فنية شاملة داخل الإمارات. اطلب معاينة أو عرض سعر خلال دقائق عبر واتساب 0526480547." />
+  <meta property="og:url" content="https://aratshftsrfshyalsharq.shop/landing/" />
+
+  <!-- Optional: prevent accidental duplicate indexing if you copy this -->
+  <meta name="theme-color" content="#0b1220" />
+
+  <style>
+    :root{
+      --bg:#0b1220;--card:#0f1a2f;--muted:#a7b3cc;--text:#eef3ff;
+      --brand:#2dd4bf;--brand2:#60a5fa;--danger:#fb7185;--line:rgba(255,255,255,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.35);--radius:18px;--max:1140px
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,"Noto Kufi Arabic","Noto Sans Arabic",sans-serif;
+      background:
+        radial-gradient(1100px 600px at 10% 10%,rgba(96,165,250,.18),transparent 60%),
+        radial-gradient(900px 520px at 90% 20%,rgba(45,212,191,.16),transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.75;
+    }
+    a{color:inherit}
+    .container{max-width:var(--max);margin:auto;padding:24px}
+    header{
+      position:sticky;top:0;z-index:50;
+      backdrop-filter: blur(10px);
+      background: rgba(11,18,32,.58);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .logo{
+      width:44px;height:44px;border-radius:14px;
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      box-shadow:var(--shadow);
+      display:grid;place-items:center;font-weight:900
+    }
+    .name{display:flex;flex-direction:column}
+    .name small{color:var(--muted);font-size:12px}
+    .cta{
+      text-decoration:none;padding:10px 14px;border-radius:14px;
+      background:linear-gradient(135deg,rgba(45,212,191,.20),rgba(96,165,250,.20));
+      border:1px solid rgba(255,255,255,.14);box-shadow:var(--shadow);
+      white-space:nowrap
+    }
+
+    .card{
+      background:rgba(15,26,47,.72);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+    }
+    .hero{padding:28px 0 12px}
+    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch}
+    .kicker{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:8px 12px;border:1px solid rgba(255,255,255,.14);
+      border-radius:999px;color:var(--muted);
+      background:rgba(255,255,255,.03);font-size:13px
+    }
+    .kicker i{width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:inline-block}
+    h1{margin:12px 0 8px;font-size:32px;line-height:1.25}
+    h2{margin:0 0 10px;font-size:22px}
+    h3{margin:0 0 10px;font-size:18px}
+    .lead{margin:0;color:var(--muted);font-size:16px}
+    .muted{color:var(--muted)}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;
+      text-decoration:none;padding:12px 14px;border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04)
+    }
+    .btn.primary{background:linear-gradient(135deg,rgba(45,212,191,.26),rgba(96,165,250,.22));border-color:rgba(255,255,255,.18)}
+    .btn.danger{background:linear-gradient(135deg,rgba(251,113,133,.22),rgba(96,165,250,.14));border-color:rgba(255,255,255,.18)}
+    .pill{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:10px 12px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.03);color:var(--muted);
+      font-size:13px;margin:6px 6px 0 0
+    }
+
+    .cols3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+    .cols2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .box{
+      background:rgba(255,255,255,.03);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:18px;
+      padding:16px;height:100%
+    }
+    .tag{
+      display:inline-flex;align-items:center;
+      padding:6px 10px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.02);
+      color:var(--muted);font-size:12px;margin:0 0 10px
+    }
+    .list{margin:0;padding:0 18px 0 0;color:var(--muted)}
+    .list li{margin:8px 0}
+
+    .stamp{
+      display:flex;gap:12px;align-items:flex-start;
+      padding:16px;border-radius:18px;
+      border:1px dashed rgba(255,255,255,.22);
+      background:rgba(255,255,255,.03)
+    }
+    .stamp-badge{
+      width:54px;height:54px;border-radius:18px;
+      background:linear-gradient(135deg,rgba(45,212,191,.85),rgba(96,165,250,.85));
+      display:grid;place-items:center;font-weight:900;
+      box-shadow:var(--shadow);flex:0 0 auto
+    }
+
+    /* Form */
+    .form{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+    .field{display:flex;flex-direction:column;gap:6px}
+    label{font-size:12px;color:var(--muted)}
+    input,select,textarea{
+      width:100%;
+      padding:12px 12px;border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.03);
+      color:var(--text);outline:none
+    }
+    textarea{min-height:120px;resize:vertical}
+    .span2{grid-column:1 / -1}
+    .note{font-size:12px;color:var(--muted);margin-top:10px}
+    .err{display:none;margin-top:10px;padding:12px;border-radius:14px;border:1px solid rgba(251,113,133,.25);background:rgba(251,113,133,.08)}
+    .ok{display:none;margin-top:10px;padding:12px;border-radius:14px;border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.08)}
+
+    /* Floating WhatsApp */
+    .wa-float{
+      position:fixed;left:18px;bottom:18px;z-index:60;
+      text-decoration:none;display:inline-flex;align-items:center;gap:10px;
+      padding:12px 14px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.16);
+      background:rgba(15,26,47,.72);box-shadow:var(--shadow)
+    }
+    .wa-dot{width:10px;height:10px;border-radius:999px;background:var(--brand);box-shadow:0 0 0 6px rgba(45,212,191,.15)}
+
+    footer{margin-top:18px;border-top:1px solid var(--line);background:rgba(11,18,32,.35)}
+    .footer-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:14px;align-items:start;padding:18px 0}
+    .small{font-size:12px;color:var(--muted)}
+
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr}
+      .cols3,.cols2{grid-template-columns:1fr}
+      .form{grid-template-columns:1fr}
+      h1{font-size:28px}
+    }
+  </style>
+
+  <!-- Schema: Landing + Business + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"LocalBusiness",
+        "@id":"https://aratshftsrfshyalsharq.shop/#localbusiness",
+        "name":"الريادة للخدمات الفنية",
+        "url":"https://aratshftsrfshyalsharq.shop/",
+        "telephone":"+971526480547",
+        "priceRange":"$$",
+        "areaServed":["Abu Dhabi","Dubai","Sharjah","Ajman","Ras Al Khaimah","Fujairah","Umm Al Quwain"],
+        "address":{"@type":"PostalAddress","addressCountry":"AE","addressRegion":"United Arab Emirates"}
+      },
+      {
+        "@type":"WebPage",
+        "@id":"https://aratshftsrfshyalsharq.shop/landing/#webpage",
+        "url":"https://aratshftsrfshyalsharq.shop/landing/",
+        "name":"عرض سعر سريع لخدمات فنية في الإمارات | الريادة للخدمات الفنية",
+        "inLanguage":"ar-AE",
+        "about":{"@id":"https://aratshftsrfshyalsharq.shop/#localbusiness"}
+      },
+      {
+        "@type":"FAQPage",
+        "@id":"https://aratshftsrfshyalsharq.shop/landing/#faq",
+        "mainEntity":[
+          {"@type":"Question","name":"هل تقدمون الخدمات في جميع إمارات الدولة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، نخدم الإمارات السبع حسب موقع العمل وطبيعة الخدمة المطلوبة."}},
+          {"@type":"Question","name":"ما أسرع طريقة للحصول على عرض سعر؟","acceptedAnswer":{"@type":"Answer","text":"واتساب 0526480547. أرسل الموقع وصور/فيديو للمشكلة لتسعير أسرع."}},
+          {"@type":"Question","name":"هل تقدمون معاينة قبل التنفيذ؟","acceptedAnswer":{"@type":"Answer","text":"نعم، لتحديد نطاق العمل بدقة وتقديم عرض سعر واضح."}}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Ads/Algorithms Foundation (DataLayer events) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "page_view_landing",
+      page_type: "landing",
+      business: "الريادة للخدمات الفنية",
+      phone: "0526480547",
+      currency: "AED"
+    });
+  </script>
+
+  <!-- GTM Placeholder (ضع كودك) -->
+  <!--
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');
+  </script>
+  -->
+</head>
+
+<body>
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" href="https://wa.me/971526480547" rel="noopener" aria-label="واتساب مباشر">
+    <span class="wa-dot" aria-hidden="true"></span>
+    واتساب: 0526480547
+  </a>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="https://aratshftsrfshyalsharq.shop/" aria-label="العودة للرئيسية">
+          <div class="logo" aria-hidden="true">ر</div>
+          <div class="name">
+            <strong>الريادة للخدمات الفنية</strong>
+            <small>صفحة هبوط للإعلانات + سيو (UAE)</small>
+          </div>
+        </a>
+        <a class="cta" href="#lead">اطلب عرض سعر الآن</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="grid">
+        <article class="card">
+          <span class="kicker"><i></i> صفحة هبوط شاملة</span>
+          <h1>عرض سعر سريع لخدمات فنية داخل الإمارات</h1>
+          <p class="lead">
+            تريد حل “ينتهي صح” من أول مرة؟ نحن نقدم خدمات فنية تشغيلية بوضوح:
+            <strong>تشخيص → تنفيذ → تسليم</strong>.
+            اطلب عرض سعر خلال دقائق عبر واتساب أو عبر النموذج.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn danger" href="https://wa.me/971526480547" rel="noopener" onclick="trackCta('whatsapp_top')">واتساب الآن</a>
+            <a class="btn primary" href="tel:+971526480547" onclick="trackCta('call_top')">اتصال مباشر</a>
+            <a class="btn" href="#services" onclick="trackCta('view_services_top')">الخدمات</a>
+          </div>
+
+          <div style="margin-top:16px">
+            <span class="pill">تغطية الإمارات السبع</span>
+            <span class="pill">تسعير شفاف</span>
+            <span class="pill">سلامة أولاً</span>
+            <span class="pill">متابعة سريعة</span>
+          </div>
+
+          <div class="stamp" style="margin-top:14px">
+            <div class="stamp-badge" aria-hidden="true">✓</div>
+            <div>
+              <h3 style="margin:0 0 6px">STAMP: خوارزمية الربح</h3>
+              <p class="muted" style="margin:0">
+                كل زر في هذه الصفحة يرسل “إشارة” للمنصة الإعلانية (Google/Meta) لتتعلم من التحويلات.
+                بمعنى بسيط: الإعلان يصير أذكى… وأنت تدفع أقل على نفس العميل.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Lead Form -->
+        <aside class="card" id="lead">
+          <span class="kicker"><i></i> نموذج سريع</span>
+          <h2>اطلب معاينة / عرض سعر</h2>
+          <p class="muted" style="margin:0">النموذج يفتح واتساب برسالة جاهزة (بدون حفظ بيانات).</p>
+
+          <form class="form" onsubmit="return sendWhatsAppLead(event)">
+            <div class="field">
+              <label for="name">الاسم</label>
+              <input id="name" required placeholder="اسمك" />
+            </div>
+            <div class="field">
+              <label for="phone">رقم التواصل</label>
+              <input id="phone" type="tel" required placeholder="05xxxxxxxx" />
+            </div>
+            <div class="field">
+              <label for="emirate">الإمارة</label>
+              <select id="emirate" required>
+                <option value="">اختر الإمارة</option>
+                <option>دبي</option><option>أبوظبي</option><option>الشارقة</option>
+                <option>عجمان</option><option>رأس الخيمة</option><option>الفجيرة</option><option>أم القيوين</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="service">الخدمة المطلوبة</label>
+              <select id="service" required>
+                <option value="">اختر الخدمة</option>
+                <option>السباكة</option>
+                <option>كشف التسربات</option>
+                <option>خدمات العزل</option>
+                <option>الصرف الصحي</option>
+                <option>تركيب الإنترلوك</option>
+                <option>تنسيق الحدائق</option>
+                <option>فتحات الكور</option>
+                <option>أخرى</option>
+              </select>
+            </div>
+
+            <div class="field span2">
+              <label for="location">الموقع (اختياري)</label>
+              <input id="location" placeholder="المنطقة/الحي أو رابط Google Maps" />
+            </div>
+
+            <div class="field span2">
+              <label for="details">تفاصيل الطلب</label>
+              <textarea id="details" required placeholder="نوع المكان، المشكلة، منذ متى، أي ملاحظات..."></textarea>
+            </div>
+
+            <div class="field span2">
+              <button class="btn primary" type="submit" style="cursor:pointer" onclick="trackCta('submit_form')">إرسال على واتساب</button>
+              <div class="err" id="err">تأكد من إدخال البيانات المطلوبة.</div>
+              <div class="ok" id="ok">تم تجهيز الرسالة… سيتم فتح واتساب الآن.</div>
+              <div class="note">لرفع دقة التسعير: أرسل صور/فيديو بعد إرسال الرسالة.</div>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="card">
+        <h2>خدماتنا داخل الإمارات</h2>
+        <div class="cols3" style="margin-top:12px">
+          <div class="box">
+            <div class="tag">Service 01</div>
+            <h3>السباكة</h3>
+            <ul class="list">
+              <li>تركيب وتمديد وصيانة</li>
+              <li>إصلاح تسربات وتبديل قطع</li>
+              <li>تعديل نقاط المياه والصرف</li>
+            </ul>
+            <div class="hero-actions"><a class="btn danger" href="https://wa.me/971526480547" rel="noopener" onclick="trackCta('whatsapp_plumbing')">اطلب سباكة</a></div>
+          </div>
+
+          <div class="box">
+            <div class="tag">Service 02</div>
+            <h3>كشف التسربات</h3>
+            <ul class="list">
+              <li>تشخيص السبب قبل الترميم</li>
+              <li>تحديد مصدر الرطوبة</li>
+              <li>حلول إصلاح عملية</li>
+            </ul>
+            <div class="hero-actions"><a class="btn danger" href="https://wa.me/971526480547" rel="noopener" onclick="trackCta('whatsapp_leak')">اطلب كشف تسربات</a></div>
+          </div>
+
+          <div class="box">
+            <div class="tag">Service 03</div>
+            <h3>خدمات العزل</h3>
+            <ul class="list">
+              <li>عزل أسطح</li>
+              <li>عزل حمامات/مطابخ</li>
+              <li>عزل خزانات وإصلاح عزل</li>
+            </ul>
+            <div class="hero-actions"><a class="btn danger" href="https://wa.me/971526480547" rel="noopener" onclick="trackCta('whatsapp_insulation')">اطلب عزل</a></div>
+          </div>
+        </div>
+
+        <div class="cols3" style="margin-top:14px">
+          <div class="box">
+            <div class="tag">Service 04</div>
+            <h3>الصرف الصحي</h3>
+            <p class="muted" style="margin:0">معالجة انسدادات وتسربات وتحسين الانسيابية.</p>
+          </div>
+          <div class="box">
+            <div class="tag">Service 05</div>
+            <h3>تركيب الإنترلوك</h3>
+            <p class="muted" style="margin:0">تأسيس صحيح + تركيب احترافي + تصريف أفضل.</p>
+          </div>
+          <div class="box">
+            <div class="tag">Service 06</div>
+            <h3>تنسيق الحدائق + فتحات الكور</h3>
+            <p class="muted" style="margin:0">تنفيذ منظم مع التزام بالسلامة والتسليم.</p>
+          </div>
+        </div>
+
+        <div class="stamp" style="margin-top:14px">
+          <div class="stamp-badge" aria-hidden="true">★</div>
+          <div>
+            <h3 style="margin:0 0 6px">عبارة صريحة (تزيد التحويل)</h3>
+            <p class="muted" style="margin:0">
+              إذا كانت مشكلتك تسرب/رطوبة: لا ترمم قبل تشخيص السبب… لأن الترقيع يفرح المقاول غلط، ويزعل العميل صح.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coverage -->
+    <section class="section" id="coverage">
+      <div class="card">
+        <h2>تغطية داخل الإمارات السبع</h2>
+        <p class="muted" style="margin:0 0 10px">نخدم حسب موقع العمل وطبيعة الخدمة.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span class="pill">دبي</span><span class="pill">أبوظبي</span><span class="pill">الشارقة</span>
+          <span class="pill">عجمان</span><span class="pill">رأس الخيمة</span><span class="pill">الفجيرة</span><span class="pill">أم القيوين</span>
+        </div>
+        <div class="hero-actions" style="margin-top:14px">
+          <a class="btn danger" href="https://wa.me/971526480547" rel="noopener" onclick="trackCta('whatsapp_bottom')">واتساب الآن</a>
+          <a class="btn primary" href="tel:+971526480547" onclick="trackCta('call_bottom')">اتصال</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="card">
+        <h2>أسئلة شائعة</h2>
+        <div class="cols2" style="margin-top:12px">
+          <div class="box">
+            <h3>هل تقدمون معاينة؟</h3>
+            <p class="muted" style="margin:0">نعم لتحديد نطاق العمل بدقة وتقديم عرض سعر واضح.</p>
+          </div>
+          <div class="box">
+            <h3>كيف أحصل على تسعير أسرع؟</h3>
+            <p class="muted" style="margin:0">أرسل موقعك وصور/فيديو على واتساب 0526480547.</p>
+          </div>
+          <div class="box">
+            <h3>هل تغطون جميع الإمارات؟</h3>
+            <p class="muted" style="margin:0">نعم الإمارات السبع حسب موقع العمل وطبيعة الخدمة.</p>
+          </div>
+          <div class="box">
+            <h3>هل تقدمون أكثر من خدمة؟</h3>
+            <p class="muted" style="margin:0">نعم: سباكة، كشف تسربات، عزل، صرف صحي، إنترلوك، حدائق، كور.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>الريادة للخدمات الفنية</strong>
+          <p class="muted" style="margin:8px 0 0">
+            صفحة هبوط للإعلانات + سيو داخل الإمارات: سباكة، كشف تسربات، عزل، صرف صحي، إنترلوك، تنسيق حدائق، فتحات كور.
+          </p>
+          <p class="small" style="margin:10px 0 0">© <span id="y"></span> جميع الحقوق محفوظة</p>
+        </div>
+        <div>
+          <strong>تواصل</strong>
+          <div class="muted" style="margin-top:8px">
+            <div>واتساب: <a href="https://wa.me/971526480547" rel="noopener">0526480547</a></div>
+            <div>اتصال: <a href="tel:+971526480547">+971 52 648 0547</a></div>
+            <div>الموقع: <a href="https://aratshftsrfshyalsharq.shop/">aratshftsrfshyalsharq.shop</a></div>
+          </div>
+          <p class="small" style="margin-top:10px">
+            للإعلانات: اربط GTM/Pixel وسجّل حدث <strong>lead_submit</strong> كتحويل.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    function trackCta(label){
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "cta_click",
+        cta_label: label,
+        page_type: "landing",
+        business: "الريادة للخدمات الفنية"
+      });
+    }
+
+    function sendWhatsAppLead(e){
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const phone = document.getElementById("phone").value.trim();
+      const emirate = document.getElementById("emirate").value.trim();
+      const service = document.getElementById("service").value.trim();
+      const location = document.getElementById("location").value.trim();
+      const details = document.getElementById("details").value.trim();
+
+      const err = document.getElementById("err");
+      const ok = document.getElementById("ok");
+      err.style.display = "none"; ok.style.display = "none";
+
+      if(!name || !phone || !emirate || !service || !details){
+        err.style.display = "block";
+        return false;
+      }
+
+      // Conversion signal for algorithms (GTM/Ads)
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "lead_submit",
+        page_type: "landing",
+        business: "الريادة للخدمات الفنية",
+        phone: "0526480547",
+        emirate: emirate,
+        service: service
+      });
+
+      ok.style.display = "block";
+
+      const msg =
+        "طلب عرض سعر - الريادة للخدمات الفنية%0A" +
+        "الاسم: " + encodeURIComponent(name) + "%0A" +
+        "رقم التواصل: " + encodeURIComponent(phone) + "%0A" +
+        "الإمارة: " + encodeURIComponent(emirate) + "%0A" +
+        "الخدمة: " + encodeURIComponent(service) + "%0A" +
+        (location ? ("الموقع: " + encodeURIComponent(location) + "%0A") : "") +
+        "التفاصيل: " + encodeURIComponent(details) + "%0A" +
+        "ملاحظة: سأرسل صور/فيديو للموقع إن توفرت.";
+
+      window.open("https://wa.me/971526480547?text=" + msg, "_blank", "noopener");
+      return false;
+    }
+  </script>
+</body>
+</html>
