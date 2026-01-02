@@ -1,0 +1,785 @@
+<!-- =========================
+FILE: dubai-services.html
+Dubai Services — Scoped Dark/Glass + Mobile Safe + Silo Hub
+ملاحظة: غيّر canonical + Schema URL إذا غيّرت السلاق
+========================= -->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>خدمات الريادة في دبي | صرف صحي • فتحات كور • صيانة • تنسيق حدائق • كشف تسربات • سباكة 24 ساعة</title>
+  <meta name="description" content="الريادة للخدمات الفنية في دبي: خدمات شاملة للمنازل والشركات — صرف صحي وشفط بيارات، فتحات كور بدون تكسير، صيانة عامة، تنسيق حدائق، كشف تسربات، سباكة، تنظيف مجاري. خدمة 24 ساعة وأسعار تنافسية." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <link rel="canonical" href="https://aratshftsrfshyalsharq.shop/خدمات-دبي/" />
+  <link rel="alternate" hreflang="ar-AE" href="https://aratshftsrfshyalsharq.shop/خدمات-دبي/" />
+
+  <meta property="og:locale" content="ar_AE" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="خدمات الريادة في دبي | خدمات فنية شاملة 24 ساعة" />
+  <meta property="og:description" content="صرف صحي • فتحات كور • صيانة • تنسيق حدائق • كشف تسربات • سباكة — داخل دبي. واتساب مباشر 0526480547." />
+  <meta property="og:url" content="https://aratshftsrfshyalsharq.shop/خدمات-دبي/" />
+  <meta property="og:site_name" content="الريادة للخدمات الفنية" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===================== Scoped Wrapper ===================== */
+    .riyadah-page{
+      --bg:#0b1220;
+      --bg2:#070d18;
+
+      --glass: rgba(255,255,255,.06);
+      --stroke: rgba(255,255,255,.12);
+
+      --text:#eaf0ff;
+      --muted: rgba(234,240,255,.72);
+
+      --wa:#16a34a;
+      --call:#3b82f6;
+      --warn:#f59e0b;
+
+      --radius:24px;
+      --shadow:0 18px 40px rgba(0,0,0,.25);
+      --max:1180px;
+
+      --mobileBarH:82px;
+
+      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Arial,sans-serif !important;
+      direction:rtl !important;
+      color:var(--text) !important;
+      line-height:1.9 !important;
+      overflow-x:hidden !important;
+
+      background:
+        radial-gradient(1200px 600px at 70% 0%, rgba(59,130,246,.22), transparent 60%),
+        radial-gradient(900px 500px at 10% 20%, rgba(22,163,74,.18), transparent 60%),
+        linear-gradient(180deg,var(--bg),var(--bg2)) !important;
+
+      padding-bottom: var(--mobileBarH);
+      position:relative;
+      z-index:0;
+      isolation:isolate;
+    }
+    .riyadah-page, .riyadah-page *{
+      box-sizing:border-box;
+      opacity:1 !important;
+      filter:none !important;
+      mix-blend-mode:normal !important;
+      text-shadow:none !important;
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+    }
+    .riyadah-page a{color:inherit;text-decoration:none}
+    .riyadah-page .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+    .riyadah-page .muted{color:var(--muted) !important}
+
+    /* Topbar */
+    .riyadah-page .topbar{
+      position:sticky;top:0;z-index:99999;
+      background:rgba(7,13,24,.55) !important;
+      backdrop-filter: blur(12px) saturate(140%);
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+    .riyadah-page .topbar .row{
+      display:flex;gap:10px;flex-wrap:wrap;
+      align-items:center;justify-content:space-between;
+      padding:12px 0;
+    }
+    .riyadah-page .chip{
+      display:inline-flex;gap:8px;align-items:center;
+      padding:8px 12px;border-radius:999px;
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.12);
+      color:#fff;font-weight:900;
+      white-space:nowrap;
+    }
+    .riyadah-page .topbar .links{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .riyadah-page .topbar .links a{
+      color:#fff;opacity:.95;font-weight:900;
+      padding:8px 12px;border-radius:14px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.05);
+      white-space:nowrap;
+    }
+
+    /* Buttons */
+    .riyadah-page .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 16px;border-radius:16px;
+      font-weight:900;user-select:none;cursor:pointer;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      transition:transform .08s ease, opacity .15s ease;
+      white-space:nowrap;
+    }
+    .riyadah-page .btn:active{transform:translateY(1px)}
+    .riyadah-page .btn.wa{background:rgba(22,163,74,.92);border-color:rgba(22,163,74,.25)}
+    .riyadah-page .btn.call{background:rgba(59,130,246,.92);border-color:rgba(59,130,246,.25)}
+    .riyadah-page .btn.warn{background:rgba(245,158,11,.18);border-color:rgba(245,158,11,.35)}
+    .riyadah-page .btn.ghost{background:transparent}
+    .riyadah-page .btn.light{background:rgba(255,255,255,.10)}
+    .riyadah-page .btn.full{width:100%}
+
+    /* Hero */
+    .riyadah-page .hero{padding:26px 0 14px}
+    .riyadah-page .hero h1{
+      margin:0 0 10px;
+      font-size:clamp(22px,3.2vw,44px);
+      line-height:1.35;
+      font-weight:900
+    }
+    .riyadah-page .hero p{margin:0 0 14px;color:var(--muted) !important;font-weight:700;font-size:clamp(14px,1.6vw,18px)}
+    .riyadah-page .hero .cta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
+    .riyadah-page .hero .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+    .riyadah-page .jump{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .riyadah-page .jump a{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+      padding:10px 12px;border-radius:16px;font-weight:900
+    }
+
+    /* Layout */
+    .riyadah-page .section{padding:14px 0}
+    .riyadah-page .card{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:16px;
+    }
+    .riyadah-page .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .riyadah-page .col-12{grid-column:span 12}
+    .riyadah-page .col-8{grid-column:span 8}
+    .riyadah-page .col-6{grid-column:span 6}
+    .riyadah-page .col-4{grid-column:span 4}
+    .riyadah-page .col-3{grid-column:span 3}
+    @media (max-width:980px){.riyadah-page .col-8,.riyadah-page .col-6,.riyadah-page .col-4,.riyadah-page .col-3{grid-column:span 12}}
+    .riyadah-page h2{margin:0 0 8px;font-size:clamp(18px,2.2vw,30px);font-weight:900}
+    .riyadah-page h3{margin:0 0 6px;font-size:18px;font-weight:900}
+    .riyadah-page .divider{height:1px;background:rgba(255,255,255,.12);margin:14px 0}
+
+    /* Service cards */
+    .riyadah-page .service-card{
+      padding:16px;border-radius:var(--radius);
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.06);
+      box-shadow:var(--shadow);
+      height:100%;
+    }
+    .riyadah-page .service-card p{margin:6px 0;color:var(--muted) !important;font-weight:700}
+    .riyadah-page .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .riyadah-page .pill{
+      display:inline-flex;align-items:center;
+      padding:6px 10px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      font-weight:900;font-size:13px
+    }
+    .riyadah-page .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .riyadah-page .actions a{
+      padding:10px 12px;border-radius:14px;font-weight:900;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+    }
+    .riyadah-page .actions a.primary{
+      background:rgba(255,255,255,.10);
+      border-color:rgba(255,255,255,.18);
+    }
+    .riyadah-page .subLinks{margin-top:10px;font-weight:900;color:var(--muted) !important}
+    .riyadah-page .subLinks a{text-decoration:underline}
+
+    /* Form */
+    .riyadah-page .form-row{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:12px}
+    .riyadah-page .field{grid-column:span 6}
+    .riyadah-page .field.full{grid-column:span 12}
+    @media (max-width:980px){.riyadah-page .field{grid-column:span 12}}
+    .riyadah-page label{display:block;font-weight:900;margin:0 0 6px}
+    .riyadah-page input,.riyadah-page select,.riyadah-page textarea{
+      width:100%;padding:12px 12px;border-radius:16px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(0,0,0,.18);
+      color:var(--text);
+      font-family:inherit;font-size:15px;outline:none
+    }
+    .riyadah-page input:focus,.riyadah-page select:focus,.riyadah-page textarea:focus{
+      border-color:rgba(59,130,246,.55);
+      box-shadow:0 0 0 3px rgba(59,130,246,.14)
+    }
+    .riyadah-page textarea{min-height:110px;resize:vertical}
+    .riyadah-page .submit-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .riyadah-page .note{font-size:13px;color:var(--muted) !important;font-weight:900}
+
+    /* FAQ */
+    .riyadah-page details{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:18px;padding:12px 14px;box-shadow:var(--shadow)
+    }
+    .riyadah-page summary{cursor:pointer;font-weight:900}
+
+    /* Footer */
+    .riyadah-page footer{
+      margin-top:18px;
+      background:rgba(0,0,0,.12);
+      color:#fff;
+      padding:18px 0 92px;
+      border-top:1px solid rgba(255,255,255,.10)
+    }
+    .riyadah-page footer a{color:#fff;text-decoration:underline}
+
+    /* Floating + Mobile bar */
+    .riyadah-page .floating{
+      position:fixed;left:16px;bottom:16px;z-index:999999;
+      display:flex;flex-direction:column;gap:10px
+    }
+    .riyadah-page .fab{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 14px;border-radius:999px;font-weight:900;color:#fff;
+      box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.16);
+      background:rgba(255,255,255,.10);
+      backdrop-filter: blur(12px);
+    }
+    .riyadah-page .fab.wa{background:rgba(22,163,74,.92)}
+    .riyadah-page .fab.call{background:rgba(59,130,246,.92)}
+    .riyadah-page .fab.top{background:rgba(255,255,255,.12)}
+
+    .riyadah-page .mobile-bar{
+      position:fixed;right:0;left:0;bottom:0;z-index:1000000;
+      background:rgba(7,13,24,.75);
+      border-top:1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(14px) saturate(140%);
+      padding-bottom: env(safe-area-inset-bottom);
+      display:none
+    }
+    .riyadah-page .mobile-bar .inner{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:10px;
+      padding:10px 12px
+    }
+    .riyadah-page .mobile-bar a{
+      display:flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 10px;border-radius:16px;font-weight:900;color:#fff;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.06)
+    }
+    .riyadah-page .mobile-bar a.wa{background:rgba(22,163,74,.92)}
+    .riyadah-page .mobile-bar a.call{background:rgba(59,130,246,.92)}
+    .riyadah-page .mobile-bar a.offers{background:rgba(245,158,11,.18);border-color:rgba(245,158,11,.35)}
+    @media (max-width:980px){.riyadah-page .floating{display:none}.riyadah-page .mobile-bar{display:block}}
+  </style>
+</head>
+
+<body>
+
+<div class="riyadah-page" id="top">
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="chip">⚡ خدمات دبي — استجابة سريعة + تحويل مباشر</div>
+        <div class="links">
+          <a href="#services">الخدمات</a>
+          <a href="#areas">مناطق دبي</a>
+          <a href="#offers">الأسعار</a>
+          <a href="#reviews">الآراء</a>
+          <a href="#quote">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>خدمات الريادة للخدمات الفنية في دبي — فريق واحد يحلها من جذورها</h1>
+      <p>
+        صرف صحي وشفط بيارات • فتحات كور بدون تكسير • صيانة عامة • تنسيق حدائق • كشف تسربات • سباكة • تنظيف مجاري
+        داخل <strong>جميع مناطق دبي</strong> مع <strong>خدمة طوارئ 24 ساعة</strong>.
+      </p>
+
+      <div class="cta" aria-label="تحويلات مباشرة">
+        <a class="btn wa" href="https://wa.me/971526480547?text=طلب%20خدمة%20في%20دبي%0Aالمنطقة:%0Aالخدمة:%0Aالتفاصيل:%0A" target="_blank" rel="noopener">💬 واتساب مباشر</a>
+        <a class="btn call" href="tel:+971526480547">📞 اتصال فوري</a>
+        <a class="btn warn" href="/العروض-والأسعار/">🎉 عروض وأسعار</a>
+        <a class="btn ghost" href="#quote">🧾 عرض سعر خلال دقيقة</a>
+      </div>
+
+      <div class="badges">
+        <span class="chip">🧰 معدات حديثة</span>
+        <span class="chip">✅ تشخيص قبل التنفيذ</span>
+        <span class="chip">🧾 تسعير واضح</span>
+        <span class="chip">🏢 أفراد • شركات • مقاولات</span>
+      </div>
+
+      <div class="jump" aria-label="انتقال سريع">
+        <a href="#services">⬇️ كل خدمات دبي</a>
+        <a href="#areas">⬇️ مناطق التغطية</a>
+        <a href="#quote">⬇️ اطلب الآن</a>
+        <a href="#faq">⬇️ الأسئلة الشائعة</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- TRUST -->
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <div class="grid">
+          <div class="col-8">
+            <h2>لماذا هذه الصفحة “تبيع” بدل ما تشرح؟</h2>
+            <p class="muted">
+              لأن عميل دبي لا يريد مقالات طويلة… يريد <strong>حل سريع + سعر واضح + تنفيذ نظيف</strong>.
+              لذلك صممناها كـ Landing: زر واتساب + زر اتصال + روابط خدمات دبي الحالية (سيو + تحويل).
+            </p>
+            <div class="divider"></div>
+            <ul style="margin:0;color:rgba(234,240,255,.9);font-weight:800">
+              <li>✅ خدمة 24 ساعة (حسب نوع الحالة والمنطقة)</li>
+              <li>✅ تقليل التكسير والفوضى قدر الإمكان</li>
+              <li>✅ تقرير مختصر قبل/بعد عند الحاجة</li>
+              <li>✅ أسعار تنافسية + بدون رسوم مخفية</li>
+            </ul>
+          </div>
+
+          <div class="col-4">
+            <h2>ابدأ في 10 ثواني</h2>
+            <p class="muted">اختر المسار الأسرع.</p>
+            <div class="divider"></div>
+            <div class="grid">
+              <div class="col-12"><a class="btn wa full" href="#quote">💬 أرسل الطلب</a></div>
+              <div class="col-12"><a class="btn call full" href="tel:+971526480547">📞 اتصل الآن</a></div>
+              <div class="col-12"><a class="btn light full" href="/اتصل-بنا/">📍 صفحة اتصل بنا</a></div>
+              <div class="col-12"><a class="btn light full" href="/خدماتنا/">✅ كل خدمات الموقع</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES (Dubai Silo Hub) -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2>جميع خدمات دبي (روابطك الصحيحة + Silo قوي)</h2>
+      <p class="muted">كل بطاقة مرتبطة بصفحة دبي الفعلية عندك (كما أرسلت الروابط).</p>
+
+      <div class="grid" style="margin-top:12px">
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🛠️ صيانة عامة في دبي</h3>
+            <p>صيانة منازل وشركات: إصلاحات، تحسينات، متابعة دورية حسب الحاجة.</p>
+            <div class="meta"><span class="pill">صيانة</span><span class="pill">إصلاحات</span><span class="pill">شركات</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/maintenance-dubai-%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%af%d8%a8%d9%8a/">صفحة دبي</a>
+              <a href="https://wa.me/971526480547?text=أريد%20صيانة%20عامة%20في%20دبي%0Aالمنطقة:%0Aالتفاصيل:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🧱 فتحات كور في دبي (بدون تكسير)</h3>
+            <p>تخريم خرسانة مسلحة بدقة للتكييف والسباكة وتمديدات MEP مع تقليل الفوضى.</p>
+            <div class="meta"><span class="pill">Core Drilling</span><span class="pill">Diamond</span><span class="pill">MEP</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%d9%81%d8%aa%d8%ad%d8%a7%d8%aa-%d9%83%d9%88%d8%b1-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-core-drilling-dubai-%d8%a8%d8%af%d9%88%d9%86-%d8%aa%d9%83%d8%b3%d9%8a%d8%b1/">صفحة دبي</a>
+              <a href="https://wa.me/971526480547?text=أريد%20فتحات%20كور%20في%20دبي%0Aالمنطقة:%0Aقطر/عدد%20الفتحات:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🚚 الصرف الصحي في دبي</h3>
+            <p>شفط بيارات ومجاري، تسليك انسدادات، تنظيف وصيانة، حلول روائح حسب الحالة.</p>
+            <div class="meta"><span class="pill">شفط</span><span class="pill">تسليك</span><span class="pill">طوارئ</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-sewage-services-dubai-html/">صفحة دبي</a>
+              <a href="https://wa.me/971526480547?text=أريد%20صرف%20صحي%20في%20دبي%0Aالمنطقة:%0Aالمشكلة:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🌿 تنسيق حدائق في دبي (Landing)</h3>
+            <p>تنسيق وزراعة وشبكات ري وممرات خارجية ترفع قيمة المكان وتقلل الصيانة.</p>
+            <div class="meta"><span class="pill">زراعة</span><span class="pill">ري</span><span class="pill">تصميم</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a9-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%a7%d9%84%d8%ad%d8%af%d8%a7%d8%a6%d9%82-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-landscaping-dubai/">صفحة دبي</a>
+              <a href="https://wa.me/971526480547?text=أريد%20تنسيق%20حدائق%20في%20دبي%0Aالمنطقة:%0Aالمساحة:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+            <p class="subLinks">بديل/صفحة ثانية: <a href="https://aratshftsrfshyalsharq.shop/%d8%b5%d9%81%d8%ad%d8%a9-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%ad%d8%af%d8%a7%d8%a6%d9%82-%d8%af%d8%a8%d9%8a/">افتحها هنا</a></p>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🧼 تنظيف مجاري / تسليك بالوعات</h3>
+            <p>تنظيف بالوعات ومجاري، حلول تراكمات وروائح، وفتح انسدادات حسب الموقع.</p>
+            <div class="meta"><span class="pill">بالوعات</span><span class="pill">تنظيف</span><span class="pill">تسليك</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a9-%d8%aa%d9%86%d8%b8%d9%8a%d9%81-%d8%a8%d8%a7%d9%84%d9%88%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d8%b1%d9%8a-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%ad%d8%a9/">صفحة الخدمة</a>
+              <a href="https://wa.me/971526480547?text=أريد%20تنظيف%20بالوعات%20/تسليك%20مجاري%20في%20دبي%0Aالمنطقة:%0Aالمشكلة:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🌬️ معالجة الروائح الكريهة للمجاري</h3>
+            <p>تشخيص مصدر الروائح (سيفون/تهوية/انسداد/تراكم) ثم علاج السبب وليس العرض.</p>
+            <div class="meta"><span class="pill">روائح</span><span class="pill">تشخيص</span><span class="pill">حل جذري</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%f0%9f%8c%ac%ef%b8%8f-%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a7%d9%84%d8%b1%d9%88%d8%a7%d8%a6%d8%ad-%d8%a7%d9%84%d9%83%d8%b1%d9%8a%d9%87%d8%a9-%d9%84%d9%84%d9%85%d8%ac%d8%a7%d8%b1%d9%8a/">صفحة الخدمة</a>
+              <a href="https://wa.me/971526480547?text=أريد%20معالجة%20روائح%20مجاري%20في%20دبي%0Aالمنطقة:%0Aأين%20الرائحة؟%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>💧 كشف تسربات (دبي/الشارقة)</h3>
+            <p>تحديد مصدر التسرب بدقة وتقليل التكسير، ثم إصلاح السبب من جذوره.</p>
+            <div class="meta"><span class="pill">كشف تسرب</span><span class="pill">تقليل تكسير</span><span class="pill">إصلاح</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%f0%9f%92%a7-%d9%83%d8%b4%d9%81-%d8%aa%d8%b3%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%8a%d8%a7%d9%87-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b1%d9%82%d8%a9-%d9%88%d8%af%d8%a8%d9%8a/">صفحة الخدمة</a>
+              <a href="https://wa.me/971526480547?text=أريد%20كشف%20تسربات%20في%20دبي%0Aالمنطقة:%0Aالعلامات:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🔧 خدمات السباكة (دبي/الشارقة)</h3>
+            <p>إصلاح تسريبات، تغيير مواسير، تركيب أدوات صحية، تسليك مطابخ/حمامات.</p>
+            <div class="meta"><span class="pill">سباكة</span><span class="pill">مواسير</span><span class="pill">أدوات صحية</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%f0%9f%94%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%a8%d8%a7%d9%83%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b1%d9%82%d8%a9-%d9%88%d8%af%d8%a8%d9%8a-%d8%b4%d8%b1%d9%83/">صفحة الخدمة</a>
+              <a href="https://wa.me/971526480547?text=أريد%20سباكة%20في%20دبي%0Aالمنطقة:%0Aالمشكلة:%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-4">
+          <article class="service-card">
+            <h3>🧯 فك انسدادات دهون المطابخ والحمامات</h3>
+            <p>حلول انسداد الدهون للمطابخ/الحمامات خصوصًا للمطاعم — تنظيف وتفكيك التراكمات.</p>
+            <div class="meta"><span class="pill">دهون</span><span class="pill">مطاعم</span><span class="pill">تسليك</span></div>
+            <div class="actions">
+              <a class="primary" href="https://aratshftsrfshyalsharq.shop/%d9%81%d9%83-%d8%a7%d9%86%d8%b3%d8%af%d8%a7%d8%af%d8%a7%d8%aa-%d8%af%d9%87%d9%88%d9%86-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%a8%d8%ae-%d9%88%d8%a7%d9%84%d8%ad%d9%85%d8%a7%d9%85%d8%a7%d8%aa/">صفحة الخدمة</a>
+              <a href="https://wa.me/971526480547?text=أريد%20حل%20انسداد%20دهون%20في%20دبي%0Aالمنطقة:%0Aنوع%20المكان%20(منزل/مطعم):%0A" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:14px">
+        <h3>روابط خدمات مرتبطة (للسيو الداخلي)</h3>
+        <p class="muted" style="font-weight:900;margin:0">
+          <a href="https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b1%d9%82%d8%a9-%d9%88%d8%af%d8%a8%d9%8a-%d8%b4%d8%b1/">صرف صحي (الشارقة ودبي)</a>
+          • <a href="/آراء-العملاء/">آراء العملاء</a>
+          • <a href="/الأسئلة-الشائعة/">الأسئلة الشائعة</a>
+          • <a href="/اتصل-بنا/">اتصل بنا</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AREAS -->
+  <section class="section" id="areas">
+    <div class="container">
+      <div class="card">
+        <h2>مناطق دبي المستهدفة (استهداف واسع بدون حشو)</h2>
+        <p class="muted">نخدم دبي بالكامل، ومن أشهر المناطق:</p>
+        <p style="font-weight:900;margin-top:6px;color:rgba(234,240,255,.92)">
+          دبي مارينا • جميرا • البرشاء • ديرة • بر دبي • القرهود • القصيص • النهدة • مردف • الورقاء • ند الشبا • الخليج التجاري • داون تاون • السطوة • الكرامة • القوز • جبل علي • موتور سيتي • المدينة العالمية • ورسان • دبي لاند
+        </p>
+        <div class="divider"></div>
+        <p class="muted">إذا منطقتك غير مذكورة: أرسل اللوكيشن على واتساب وسيتم تأكيد التغطية فورًا.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="section" id="offers">
+    <div class="container">
+      <div class="card">
+        <h2>الأسعار التنافسية في دبي</h2>
+        <p class="muted">
+          السعر يتحدد حسب <strong>الحالة</strong> (حجم المشكلة/عدد الفتحات/المساحة/سهولة الوصول/الوقت).
+          القاعدة: <strong>سعر واضح قبل التنفيذ</strong>.
+        </p>
+        <ul style="margin:0;color:rgba(234,240,255,.9);font-weight:800">
+          <li>💰 خصومات للشركات والمقاولات والطلبات المتكررة</li>
+          <li>🧾 عرض سعر سريع عبر واتساب عند إرسال صور/فيديو + الموقع</li>
+          <li>🎉 عروض موسمية: راجع <a href="/العروض-والأسعار/" style="text-decoration:underline">العروض والأسعار</a></li>
+        </ul>
+        <div class="divider"></div>
+        <div class="grid">
+          <div class="col-6">
+            <a class="btn wa full" href="https://wa.me/971526480547?text=أريد%20عرض%20سعر%20في%20دبي%0Aالخدمة:%0Aالمنطقة:%0Aالتفاصيل:%0A" target="_blank" rel="noopener">💬 اطلب عرض سعر واتساب</a>
+          </div>
+          <div class="col-6">
+            <a class="btn call full" href="tel:+971526480547">📞 اتصال فوري</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="card">
+        <h2>آراء العملاء (دبي)</h2>
+        <p style="font-weight:900">⭐ <strong>عميل – الخليج التجاري:</strong> <span class="muted">“تواصل سريع وسعر واضح، والتنفيذ كان مرتب.”</span></p>
+        <p style="font-weight:900">⭐ <strong>عميل – البرشاء:</strong> <span class="muted">“كشفوا المشكلة من أول مرة بدون تكسير زائد.”</span></p>
+        <p style="font-weight:900">⭐ <strong>عميل – ديرة:</strong> <span class="muted">“الالتزام بالمواعيد ممتاز.”</span></p>
+        <div class="divider"></div>
+        <p class="muted">صفحة كاملة: <a href="/آراء-العملاء/" style="text-decoration:underline">آراء العملاء →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="section" id="quote">
+    <div class="container">
+      <div class="card">
+        <div class="grid">
+          <div class="col-6">
+            <h2>اطلب خدمة في دبي خلال دقيقة</h2>
+            <p class="muted">النموذج يولّد رسالة واتساب جاهزة. كلما زادت التفاصيل = تسعير أسرع.</p>
+
+            <form id="leadForm" onsubmit="return sendToWhatsApp(event)">
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">الاسم</label>
+                  <input id="name" type="text" placeholder="مثال: أبو أحمد" />
+                </div>
+                <div class="field">
+                  <label for="phone">رقم التواصل (اختياري)</label>
+                  <input id="phone" type="tel" inputmode="tel" placeholder="05xxxxxxxx" />
+                </div>
+                <div class="field">
+                  <label for="area">منطقة دبي</label>
+                  <input id="area" type="text" placeholder="مثال: دبي مارينا" required />
+                </div>
+                <div class="field">
+                  <label for="service">الخدمة المطلوبة</label>
+                  <select id="service" required>
+                    <option value="">اختر الخدمة</option>
+                    <option>الصرف الصحي / شفط بيارات</option>
+                    <option>فتحات كور (Core Drilling)</option>
+                    <option>صيانة عامة</option>
+                    <option>تنسيق حدائق</option>
+                    <option>كشف تسربات</option>
+                    <option>سباكة</option>
+                    <option>تنظيف بالوعات / تسليك</option>
+                    <option>معالجة روائح مجاري</option>
+                    <option>فك انسداد دهون</option>
+                    <option>أخرى</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="details">التفاصيل</label>
+                  <textarea id="details" required placeholder="اكتب وصف سريع + (قياسات/عدد فتحات/مساحة/وقت) إن وجد"></textarea>
+                </div>
+              </div>
+
+              <div class="submit-row">
+                <button class="btn wa" type="submit">💬 إرسال الطلب على واتساب</button>
+                <a class="btn call" href="tel:+971526480547">📞 أو اتصل الآن</a>
+                <a class="btn light" href="/اتصل-بنا/">📍 اتصل بنا</a>
+              </div>
+              <p class="note">نصيحة: أرسل صور/فيديو على واتساب لتسعير أسرع ودقيق.</p>
+            </form>
+          </div>
+
+          <div class="col-6">
+            <h2>ماذا يحدث بعد إرسال الطلب؟</h2>
+            <p class="muted">1) نستلم التفاصيل 2) سؤالين للتأكيد 3) تقدير تكلفة 4) تحديد موعد التنفيذ.</p>
+
+            <div class="divider"></div>
+
+            <h3 id="faq">أسئلة شائعة في دبي</h3>
+            <div class="grid" style="margin-top:10px">
+              <div class="col-12">
+                <details open>
+                  <summary>هل لديكم طوارئ 24 ساعة في دبي؟</summary>
+                  <p class="muted">نعم حسب نوع الحالة والمنطقة، وقد توجد رسوم إضافية رمزية للطوارئ.</p>
+                </details>
+              </div>
+              <div class="col-12">
+                <details>
+                  <summary>كيف يتم تحديد السعر؟</summary>
+                  <p class="muted">حسب نوع الخدمة والحالة وسهولة الوصول والوقت. أسرع تسعير: صور/فيديو + الموقع.</p>
+                </details>
+              </div>
+              <div class="col-12">
+                <details>
+                  <summary>هل تخدمون الشركات والمقاولات في دبي؟</summary>
+                  <p class="muted">نعم، نخدم الأفراد والشركات والمقاولات والمطاعم داخل دبي.</p>
+                </details>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+            <p class="muted" style="font-weight:900">
+              صفحات ثقة: <a href="/شركاؤنا/" style="text-decoration:underline">شركاؤنا</a> •
+              <a href="/الأسئلة-الشائعة/" style="text-decoration:underline">الأسئلة الشائعة</a> •
+              <a href="/مستجدات/" style="text-decoration:underline">الأخبار والمستجدات</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="col-6">
+          <h3 style="margin:0 0 6px">الريادة للخدمات الفنية — دبي</h3>
+          <p style="margin:0;opacity:.8" class="muted">
+            خدمات دبي: صرف صحي، فتحات كور، صيانة، تنسيق حدائق، كشف تسربات، سباكة، تنظيف مجاري.
+          </p>
+        </div>
+        <div class="col-6">
+          <h3 style="margin:0 0 6px">تواصل مباشر</h3>
+          <p style="margin:0">
+            📞 <a href="tel:+971526480547">0526480547</a><br />
+            💬 <a href="https://wa.me/971526480547" target="_blank" rel="noopener">WhatsApp</a>
+          </p>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <p style="margin:0;opacity:.75" class="muted">© 2026 الريادة للخدمات الفنية — جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <!-- Floating CTA (Desktop) -->
+  <div class="floating" aria-label="أزرار التواصل السريعة">
+    <a class="fab top" href="#top">⬆️ للأعلى</a>
+    <a class="fab wa" href="https://wa.me/971526480547" target="_blank" rel="noopener">💬 واتساب</a>
+    <a class="fab call" href="tel:+971526480547">📞 اتصال</a>
+  </div>
+
+  <!-- Mobile Bottom Bar -->
+  <nav class="mobile-bar" aria-label="شريط التواصل للموبايل">
+    <div class="inner">
+      <a class="wa" href="https://wa.me/971526480547" target="_blank" rel="noopener">💬 واتساب</a>
+      <a class="call" href="tel:+971526480547">📞 اتصال</a>
+      <a class="offers" href="/العروض-والأسعار/">🎉 عروض</a>
+    </div>
+  </nav>
+
+  <!-- Lead → WhatsApp -->
+  <script>
+    function sendToWhatsApp(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const area = document.getElementById('area').value.trim();
+      const service = document.getElementById('service').value.trim();
+      const details = document.getElementById('details').value.trim();
+
+      const lines = [
+        'طلب جديد (دبي) من موقع الريادة',
+        name ? ('الاسم: ' + name) : null,
+        phone ? ('رقم التواصل: ' + phone) : null,
+        'المنطقة (دبي): ' + area,
+        'الخدمة: ' + service,
+        'التفاصيل: ' + details,
+        '',
+        'مرفقات (صور/فيديو): سأرسلها الآن'
+      ].filter(Boolean);
+
+      const text = encodeURIComponent(lines.join('\n'));
+      window.open('https://wa.me/971526480547?text=' + text, '_blank', 'noopener');
+      return false;
+    }
+  </script>
+
+  <!-- ===================== SCHEMA (Dubai Hub Page) ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"خدمات دبي | الريادة للخدمات الفنية",
+    "url":"https://aratshftsrfshyalsharq.shop/خدمات-دبي/",
+    "inLanguage":"ar-AE",
+    "isPartOf":{"@type":"WebSite","url":"https://aratshftsrfshyalsharq.shop/"},
+    "about":{"@type":"Thing","name":"خدمات فنية في دبي"}
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"الريادة للخدمات الفنية",
+    "url":"https://aratshftsrfshyalsharq.shop/خدمات-دبي/",
+    "telephone":"+971526480547",
+    "priceRange":"$$",
+    "address":{"@type":"PostalAddress","addressRegion":"Dubai","addressCountry":"AE"},
+    "areaServed":[{"@type":"AdministrativeArea","name":"Dubai"}],
+    "serviceArea":{"@type":"AdministrativeArea","name":"Dubai"},
+    "inLanguage":"ar-AE"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"خدمات الريادة في دبي",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"صيانة عامة في دبي","url":"https://aratshftsrfshyalsharq.shop/maintenance-dubai-%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%af%d8%a8%d9%8a/"},
+      {"@type":"ListItem","position":2,"name":"فتحات كور في دبي بدون تكسير","url":"https://aratshftsrfshyalsharq.shop/%d9%81%d8%aa%d8%ad%d8%a7%d8%aa-%d9%83%d9%88%d8%b1-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-core-drilling-dubai-%d8%a8%d8%af%d9%88%d9%86-%d8%aa%d9%83%d8%b3%d9%8a%d8%b1/"},
+      {"@type":"ListItem","position":3,"name":"خدمات الصرف الصحي في دبي","url":"https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-sewage-services-dubai-html/"},
+      {"@type":"ListItem","position":4,"name":"تنسيق حدائق في دبي","url":"https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a9-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%a7%d9%84%d8%ad%d8%af%d8%a7%d8%a6%d9%82-%d9%81%d9%8a-%d8%af%d8%a8%d9%8a-landscaping-dubai/"},
+      {"@type":"ListItem","position":5,"name":"صفحة تنسيق حدائق دبي (بديل)","url":"https://aratshftsrfshyalsharq.shop/%d8%b5%d9%81%d8%ad%d8%a9-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%ad%d8%af%d8%a7%d8%a6%d9%82-%d8%af%d8%a8%d9%8a/"},
+      {"@type":"ListItem","position":6,"name":"تنظيف بالوعات المجاري","url":"https://aratshftsrfshyalsharq.shop/%d8%ae%d8%af%d9%85%d8%a9-%d8%aa%d9%86%d8%b8%d9%8a%d9%81-%d8%a8%d8%a7%d9%84%d9%88%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d8%b1%d9%8a-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%af%d8%a9/"},
+      {"@type":"ListItem","position":7,"name":"معالجة الروائح الكريهة للمجاري","url":"https://aratshftsrfshyalsharq.shop/%f0%9f%8c%ac%ef%b8%8f-%d9%85%d8%b9%d8%a7%d9%84%d8%ac%d8%a9-%d8%a7%d9%84%d8%b1%d9%88%d8%a7%d8%a6%d8%ad-%d8%a7%d9%84%d9%83%d8%b1%d9%8a%d9%87%d8%a9-%d9%84%d9%84%d9%85%d8%ac%d8%a7%d8%b1%d9%8a/"},
+      {"@type":"ListItem","position":8,"name":"كشف تسربات المياه (دبي/الشارقة)","url":"https://aratshftsrfshyalsharq.shop/%f0%9f%92%a7-%d9%83%d8%b4%d9%81-%d8%aa%d8%b3%d8%b1%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%8a%d8%a7%d9%87-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b1%d9%82%d8%a9-%d9%88%d8%af%d8%a8%d9%8a/"},
+      {"@type":"ListItem","position":9,"name":"خدمات السباكة (دبي/الشارقة)","url":"https://aratshftsrfshyalsharq.shop/%f0%9f%94%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d8%a8%d8%a7%d9%83%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%b4%d8%a7%d8%b1%d9%82%d8%a9-%d9%88%d8%af%d8%a8%d9%8a-%d8%b4%d8%b1%d9%83/"},
+      {"@type":"ListItem","position":10,"name":"فك انسدادات دهون المطابخ والحمامات","url":"https://aratshftsrfshyalsharq.shop/%d9%81%d9%83-%d8%a7%d9%86%d8%b3%d8%af%d8%a7%d8%af%d8%a7%d8%aa-%d8%af%d9%87%d9%88%d9%86-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%a8%d8%ae-%d9%88%d8%a7%d9%84%d8%ad%d9%85%d8%a7%d8%85%d8%a7%d8%aa/"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "inLanguage":"ar-AE",
+    "mainEntity":[
+      {"@type":"Question","name":"هل لديكم طوارئ 24 ساعة في دبي؟","acceptedAnswer":{"@type":"Answer","text":"نعم حسب نوع الحالة والمنطقة، وقد توجد رسوم إضافية رمزية للطوارئ."}},
+      {"@type":"Question","name":"كيف يتم تحديد سعر الخدمة في دبي؟","acceptedAnswer":{"@type":"Answer","text":"حسب نوع الخدمة والحالة وسهولة الوصول والوقت. أسرع تسعير: إرسال صور/فيديو + الموقع على واتساب."}},
+      {"@type":"Question","name":"هل تخدمون الشركات والمقاولات في دبي؟","acceptedAnswer":{"@type":"Answer","text":"نعم، نخدم الأفراد والشركات والمقاولات والمطاعم داخل دبي."}}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"الرئيسية","item":"https://aratshftsrfshyalsharq.shop/"},
+      {"@type":"ListItem","position":2,"name":"خدمات دبي","item":"https://aratshftsrfshyalsharq.shop/خدمات-دبي/"}
+    ]
+  }
+  </script>
+
+</div>
+
+</body>
+</html>
